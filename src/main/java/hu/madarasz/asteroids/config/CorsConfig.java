@@ -11,12 +11,16 @@ public class CorsConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**")
                 .allowedOrigins(
-                    "https://your-framer-project.framer.app", 
-                    "http://localhost:3000"
+                    "http://localhost:3000",
+                    "https://daring-principles-725905.framer.app",
+                    "https://proud-turtle-1234.loca.lt"
                 )
-                .allowedMethods("GET")
+                .allowedMethods("GET", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(false);
     }
 }
+
+
+
 
