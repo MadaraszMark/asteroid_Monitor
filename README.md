@@ -47,6 +47,21 @@ A cél, hogy könnyen beolvasható, rendezett információt adjunk az űrben moz
 
 ## 🚀 Használat
 
-A backend végpont elérhetősége:
+A backend végpont elérhetősége:  
+**`GET http://localhost:8081/api/asteroids?from=2025-01-01&to=2025-01-02`**
+
+A válasz JSON például:
+```json
+[
+  {
+    "name": "162142 (1998 VR)",
+    "estimated_diameter_min_meters": 455.57,
+    "estimated_diameter_max_meters": 1018.69,
+    "relative_velocity_kps": 9.14,
+    "is_potentially_hazardous": false
+  },
+  ...
+]
+
 
 
