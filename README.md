@@ -13,6 +13,10 @@ _Egy modern, Java alapú REST backend szolgáltatás, amely a NASA NEO API-jáb�
 >
 > Az alkalmazás frontendje **csak akkor működik webes felületen**, ha a Java backend éppen fut a gépemen.  
 > **Postman segítségével viszont a backend funkciók bármikor tesztelhetők**, függetlenül a frontendtől.
+> > A `nasa.api.key` értékét a rendszer környezeti változójából (`NASA_API_KEY`) olvassa be.
+> 
+> **Eclipse használata esetén:**
+> - Run → Run Configurations... → Environment → `NASA_API_KEY=kulcsod`
 
 ---
 
