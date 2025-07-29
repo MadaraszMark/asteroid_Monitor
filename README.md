@@ -11,7 +11,7 @@ _Egy modern, Java alapú REST backend szolgáltatás, amely a NASA NEO API-jáb�
 
 > ⚠️ **Fontos megjegyzés:**
 >
-> Az alkalmazás frontendje **csak akkor működik webes felületen**, ha a Java backend éppen fut a fejlesztő gépén (`localhost:8081`).  
+> Az alkalmazás frontendje **csak akkor működik webes felületen**, ha a Java backend éppen fut a gépemen.  
 > **Postman segítségével viszont a backend funkciók bármikor tesztelhetők**, függetlenül a frontendtől.
 
 ---
